@@ -1,0 +1,124 @@
+{
+    "name": "KRINAL NAGHERA",
+    "summary": "Software Engineer with experience in backend development and Site Reliability Engineering practices, specializing in observability, monitoring, and automation for distributed systems. Strong focus on reliability, performance optimization, and reducing operational toil through automation.",
+    "skills": {
+        "programming_languages": [
+            "Java",
+            "Python",
+            "Scala",
+            "JavaScript",
+            "Next.js",
+            "Node.js",
+            "R"
+        ],
+        "frameworks": [
+            "Spring Boot",
+            "React",
+            "TensorFlow",
+            "PyTorch",
+            "LangChain",
+            "MLflow"
+        ],
+        "cloud": [
+            "Google Cloud (GCP)",
+            "AWS"
+        ],
+        "devops_infrastructure": [
+            "Terraform",
+            "GitLab CI/CD",
+            "Docker",
+            "Kubernetes"
+        ],
+        "databases": [
+            "SQL"
+        ],
+        "data_engineering": [
+            "PySpark",
+            "Apache Airflow",
+            "Databricks",
+            "Data Engineering Pipelines"
+        ],
+        "observability": [
+            "OpenTelemetry",
+            "New Relic",
+            "Splunk",
+            "SLIs/SLOs",
+            "Distributed Tracing"
+        ],
+        "ml_ai": [
+            "AutoGluon",
+            "Generative AI",
+            "RAG",
+            "Agentic AI"
+        ]
+    },
+    "experience": [
+        {
+            "company": "Telstra",
+            "role": "Associate Software Engineer / Platform Engineer",
+            "start_date": "July 2025",
+            "end_date": "Present",
+            "responsibilities": [
+                "Enabled high-availability app scaling and platform optimization on Kubernetes",
+                "Led observability standardization across 1000+ applications using OpenTelemetry-based tracing, centralized logging, and metrics pipelines",
+                "Automated the process of Observability Maturity Assessments using Power Automate and Power Apps",
+                "Developed and maintained multiple Java Spring Boot microservices for a Telstra Enterprise client portal",
+                "Reduced direct database dependencies by designing and implementing dedicated read/write APIs"
+            ]
+        },
+        {
+            "company": "MathCo",
+            "role": "Data Engineer Intern",
+            "start_date": "January 2025",
+            "end_date": "July 2025",
+            "responsibilities": [
+                "Improved data reliability and increased accuracy by 45% by building data processing and prediction pipelines",
+                "Optimized referral alert processes for a global client, saving $250k annually and boosting operational efficiency in healthcare analytics"
+            ]
+        },
+        {
+            "company": "Altigreen Propulsion Labs",
+            "role": "Data Intern",
+            "start_date": "September 2023",
+            "end_date": "October 2023",
+            "responsibilities": [
+                "Enhanced predictive models’ performance, improving accuracy by 15% using AutoGluon",
+                "Delivered insights from million-row datasets with 80+ features through analysis and visualization"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Customer Churn Prediction model for Waze app",
+            "link": "Link",
+            "description": "Built a predictive model to identify potential user churn, achieving a 92% accuracy rate and delivering actionable insights to enable targeted retention strategies."
+        },
+        {
+            "name": "SmartLearnX (Gemini AI, RAG Pipelines, React, node.js)",
+            "link": "Link",
+            "description": "Built a RAG-based AI learning platform using Gemini, LangChain, and vector search offering personalized learning paths based on user goals and performance, and generating customized educational content"
+        }
+    ],
+    "certifications": [
+        "Splunk Official Training and Certifications",
+        "New Relic Official Training and Certifications",
+        "Google Advanced Data Analytics Professional Certification (Google Career Certificates, Coursera)",
+        "Amazon ML Summer School 2024 mentee"
+    ],
+    "education": [
+        {
+            "degree": "Master of Science in Machine Learning & A.I.",
+            "university": "Liverpool John Moores University",
+            "start_date": "December 2025",
+            "end_date": "Present",
+            "cgpa": "TBD"
+        },
+        {
+            "degree": "B.E. Computer Science and Engineering",
+            "university": "Nitte Meenakshi Institute of Technology",
+            "start_date": "June 2025",
+            "end_date": "Present",
+            "cgpa": "8.91"
+        }
+    ]
+}
