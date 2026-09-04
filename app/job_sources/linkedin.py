@@ -84,7 +84,16 @@ def normalize_jobs(jobs):
     normalized = []
     seen_urls = set()
 
+    easy_apply_count = 0
+    skipped_count = 0
+
     for job in jobs:
+
+        if not job.get("is_easy_apply", False):
+            skipped_count += 1
+            continue
+
+        easy_apply_count += 1
 
         url = job.get("link", "").strip()
 
@@ -108,12 +117,15 @@ def normalize_jobs(jobs):
             "date_text": job.get("date_text", ""),
             "insights": job.get("insights", []),
             "salary": job.get("salary", ""),
-            "is_easy_apply": job.get("is_easy_apply", False),
+            "is_easy_apply": True,
             "applicant_count": job.get("applicant_count", ""),
             "benefits": job.get("benefits", []),
             "reposted": job.get("reposted", False),
             "source": "linkedin",
         })
+
+    print(f"\nEasy Apply jobs: {easy_apply_count}")
+    print(f"Skipped non-Easy Apply jobs: {skipped_count}")
 
     return normalized
 
