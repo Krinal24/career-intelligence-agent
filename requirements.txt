@@ -1,0 +1,6 @@
+ollama
+pydantic
+python-dotenv
+pymupdf
+sentence-transformers
+chromadb
