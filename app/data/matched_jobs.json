@@ -1,0 +1,899 @@
+[
+    {
+        "title": "Data Engineer (SQL+Python+AWS)",
+        "company": "Fidelity International",
+        "location": "Bengaluru, Karnataka, India (Hybrid)",
+        "url": "https://www.linkedin.com/jobs/view/4459274463",
+        "apply_url": "",
+        "description": "About the job We are looking for someone with the following skills : 1. Strong SQL and Data Modelling skills Hands-on experience writing complex SQL for data transformation, analytics, and performance optimization, with solid understanding of data modelling principles for warehouse/lake-house environments. 2. Python / modern programming for data engineering Proficiency in Python for building scalable ETL/ELT pipelines, data processing workflows, automation, and integration across data platforms. 3. Cloud data platform experience Practical experience with modern cloud ecosystems such as AWS, Azure, or GCP, including managed data services, storage, compute, and orchestration patterns. 4. Modern data pipeline and orchestration tools Experience designing and maintaining reliable batch and/or streaming pipelines using tools such as Airflow, dbt, Spark, Kafka, or equivalent modern data stack technologies. 5. Data warehouse / lakehouse architecture knowledge Strong understanding of modern data architecture concepts including data lakes, data warehouses, lakehouses, medallion-style layering, data quality, and scalable ingestion/serving patterns. Good to Have Skills 1. Experience with big data / distributed processing frameworks Exposure to Spark, Databricks, Flink, or similar technologies for large-scale data transformation and processing. 2. Data governance and data quality practices Familiarity with lineage, cataloging, schema management, observability, data testing, and governance controls. 3. CI/CD and infrastructure-as-code for data platforms Experience with Git-based workflows, Terraform, Docker, Kubernetes, and deployment automation for data engineering solutions. 4. Streaming / real-time data experience Knowledge of event-driven architectures and real-time ingestion/processing using Kafka, Kinesis, Pub/Sub, or similar tools. 5. Business intelligence and analytics enablement Ability to work closely with analytics, product, and business teams to deliver curated datasets that support reporting, dashboards, and self-service analytics.",
+        "posted_date": "2026-09-01",
+        "date_text": "3 days ago",
+        "insights": [
+            "Hybrid",
+            "Full-time"
+        ],
+        "salary": "",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 79.75,
+        "skill_score": 58.33,
+        "role_score": 85,
+        "experience_score": 80,
+        "domain_score": 100.0,
+        "education_score": 80,
+        "location_score": 100,
+        "matched_skills": [
+            "Python",
+            "AWS",
+            "Terraform",
+            "Docker",
+            "Kubernetes",
+            "SQL",
+            "Databricks"
+        ],
+        "missing_skills": [
+            "azure",
+            "spark",
+            "kafka"
+        ],
+        "required_experience": null,
+        "ai_evaluation": {
+            "fit_score": 95.0,
+            "recommendation": "APPLY",
+            "confidence": 95.0,
+            "reason": "Kriminal's profile demonstrates a strong fit for the Data Engineer role at Fidelity International. She possesses core skills explicitly required in the job description, including SQL, Python, and AWS experience. Her experience at Telstra, focused on observability, automation, and microservices aligns well with the need for robust data pipelines and modern data platform expertise. Her demonstrated skills with Next.js and Node.js, coupled with her interest in RAG pipelines and GenAI, are particularly relevant given the job's emphasis on modern data stack technologies. The candidate's academic background in Machine Learning and AI, combined with certifications in related technologies, further strengthens her suitability. The listed 'good to have' skills (Spark, Kafka, data governance) are present in her experience.",
+            "matched_requirements": [
+                "Strong SQL and Data Modelling skills",
+                "Python / modern programming for data engineering",
+                "AWS experience",
+                "Data warehouse / lakehouse architecture knowledge",
+                "Modern data pipeline and orchestration tools",
+                "Data governance and data quality practices"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [
+                "Experience with big data / distributed processing frameworks",
+                "Streaming / real-time data experience"
+            ],
+            "concerns": []
+        },
+        "final_score": 90.42,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "Site Reliability Engineer",
+        "company": "Otto AI",
+        "location": "Bengaluru, Karnataka, India (Remote)",
+        "url": "https://www.linkedin.com/jobs/view/4461918846",
+        "apply_url": "",
+        "description": "About the job AWS · TypeScript · Reliability · Security · Scale Reliability, scale, security, and cost are all yours. Otto builds an AI computer. Our hardware sits on a customer's desk running embedded Linux, maintains a live connection to our cloud, and receives signed over-the-air updates from us. Every part of that path runs on AWS. Our infrastructure is infrastructure-as-code, and our stack is heavily TypeScript. You will design and operate the platform behind Otto: cloud infrastructure, CI/CD, observability, fleet reliability, security, capacity planning, and cost. You will also write code, review PRs, deploy to production, respond to incidents, and participate in on-call. This is a small team. There is no infrastructure layer between you and the system. Infrastructure as Code AWS CDK v2 TypeScript VPC IAM Compute AWS Lambda ECS Fargate API Gateway CloudFront Data RDS PostgreSQL DynamoDB ElastiCache / Redis S3 Delivery GitHub Actions Docker ECR Canary, rolling, and blue/green deployments Automated rollback Observability CloudWatch OpenTelemetry Grafana SLIs / SLOs Alerting and incident response Nearby Stack Node.js Next.js Vercel Some of our web surfaces run on Vercel. Experience with it is helpful, but not required. What You'll OwnProduction Infrastructure on AWS Design, build, and operate our production infrastructure across Lambda, Fargate, RDS, ElastiCache, DynamoDB, S3, CloudFront, API Gateway, VPC, and IAM. You should be comfortable owning the system end to end rather than relying on a separate platform team. Infrastructure as Code Every resource lives in our CDK tree. Development and production environments should be reproducible from the same code, with infrastructure changes reviewed through the same PR process as application code. CI/CD Build and maintain GitHub Actions pipelines for: Application deployments Container deployments Infrastructure deployments Database migrations Canary releases Rolling deployments Blue/green deployments Automated rollback You should know when each deployment strategy is appropriate and why. Observability Own metrics, logs, traces, dashboards, and alerts across the platform. The goal is simple: page a human only when a human is actually needed. SLIs, SLOs, and Error Budgets Define reliability targets, track them, and help the product and engineering teams make informed decisions when reliability budgets are being consumed. Incident Response Lead incidents when they happen. Run blameless postmortems and turn findings into real reliability work rather than documentation that gets forgotten. OTA Updates to the Otto Fleet Our releases eventually reach physical devices sitting in customers' homes and offices. You will help own: Canary rollouts Rollback detection Fleet health monitoring Release safety Failure recovery A bad release can reach hardware we cannot physically access, so deployment discipline matters. AWS Cost Own infrastructure efficiency and visibility. This includes: Rightsizing Spot and reserved capacity Tagging discipline Budget alerts Cost attribution Identifying which services and workloads are actually driving spend Security Help establish and maintain a strong production security posture, including: IAM least privilege Network segmentation Secrets management Patching Access controls Auditability Foundations for SOC 2 Data Infrastructure Operate PostgreSQL, Redis, and DynamoDB in production. That includes: Backups Tested restores Capacity planning Upgrades Performance Availability Failure recovery Killing Toil If something repetitive can be automated, automate it. Build internal tooling in TypeScript or Bash that allows engineers to self-serve instead of relying on manual infrastructure work. Mentoring Help raise the operational and reliability bar across the entire engineering team. Must Have These are not \"familiarity with\" requirements. We are looking for someone who has owned these systems in production and understands where they fail. AWS CDK Deep, current experience with AWS CDK v2 in TypeScript, including: Constructs Stacks Cross-stack references Cross-region architecture Custom resources Deployment troubleshooting Managing infrastructure changes safely in production You should know what to do when the synth is clean but the deployment still isn't. AWS in Production Strong hands-on experience with: VPC architecture and networking IAM policy design CloudFront API Gateway S3 Production security and access controls We are looking for direct ownership, not experience where another platform team handled the difficult parts. AWS Lambda You should understand: Cold starts Concurrency limits VPC-attached functions Bundle size Scaling behavior Timeouts Connection management The problems Lambda creates when talking to PostgreSQL RDS PostgreSQL Experience actually operating PostgreSQL in production, including: Query plans Indexing Vacuum behavior Connection limits RDS Proxy Major-version upgrades Point-in-time recovery Backup and restore procedures you have actually tested DynamoDB Strong understanding of DynamoDB data modeling, including: Designing around access patterns Partition keys GSIs Hot partitions Conditional writes On-demand vs. provisioned capacity TypeScript and Node.js You should write real production TypeScript, not just infrastructure glue. Our infrastructure, backend, internal tooling, and device runtime are all heavily Node.js and TypeScript. You will regularly read and review code outside of a traditional infrastructure role. Linux and Networking Strong understanding of: TCP/IP DNS TLS Load balancing WebSockets Linux systems You should be comfortable debugging problems like a persistent socket that only drops for customers on one ISP. CI/CD and Incident Response You should have experience: Building deployment pipelines Choosing deployment strategies Running production incidents Writing postmortems Establishing SLOs Turning incidents into reliability improvements Bonus These are not required, but they count for a lot. Next.js, including App Router, Server Components, and build pipelines Vercel, including projects, preview environments, edge configuration, and hosted infrastructure Edge, IoT, or embedded Linux fleets with OTA updates Redis pub/sub Large-scale WebSocket services AWS Organizations and multi-account architectures OIDC deployment roles Ephemeral per-developer environments LLM gateways, proxies, or AI workloads on AWS SOC 2 or ISO 27001 experience FinOps experience Self-hosted CI runners Container build caching Kubernetes experience — useful context, although we do not currently run Kubernetes AWS certifications such as Solutions Architect, DevOps Engineer, or SysOps Administrator What This Is Really Like Otto is a small team with a short path from decision to production. You will work in the same repositories as the rest of the engineering organization and regularly read code outside your lane. Our systems span cloud infrastructure, APIs, data infrastructure, web applications, and physical devices running in the field. We value clear technical writing. Design documents, postmortems, architecture decisions, and the sentence in a PR explaining why something is changing all matter. If a deployment changes something persisted on an Otto device that has been running in someone's home for six months, we want that risk understood and documented before the release goes out. On-call is shared and real. In return, fixing the system that woke you up is treated as the work — not as an interruption from the work.",
+        "posted_date": "2026-09-04",
+        "date_text": "15 hours ago",
+        "insights": [
+            "Remote",
+            "Contract"
+        ],
+        "salary": "",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 81.0,
+        "skill_score": 50.0,
+        "role_score": 100,
+        "experience_score": 80,
+        "domain_score": 100.0,
+        "education_score": 80,
+        "location_score": 100,
+        "matched_skills": [
+            "Next.js",
+            "Node.js",
+            "AWS",
+            "Docker",
+            "Kubernetes",
+            "OpenTelemetry"
+        ],
+        "missing_skills": [
+            "typescript",
+            "postgresql",
+            "llm"
+        ],
+        "required_experience": null,
+        "ai_evaluation": {
+            "fit_score": 92.0,
+            "recommendation": "APPLY",
+            "confidence": 0.95,
+            "reason": "This candidate's profile strongly aligns with the requirements of the Site Reliability Engineer role at Otto AI. Their experience as a Platform Engineer at Telstra, focused on observability, Kubernetes, and automation, directly matches the job description’s emphasis on reliability, scale, security, and cost optimization.  Notably, their work with OpenTelemetry, distributed tracing, and SLOs aligns perfectly with Otto AI’s stated need for clear observability. Their experience with AWS, including Lambda, Fargate, and RDS, is a strong match. The candidate’s experience with TypeScript, Node.js, and deploying to production via CI/CD pipelines is also highly relevant. The candidate's experience with Next.js, while a 'nice to have', doesn’t detract from the overall fit, and the role’s emphasis on ‘owning’ the entire system—from infrastructure to APIs to physical devices—reflects the candidate's core competencies. The fact that they've previously worked with complex, distributed systems and have a strong understanding of operational best practices makes them a highly suitable candidate.",
+            "matched_requirements": [
+                "Kubernetes",
+                "AWS (Lambda, Fargate, RDS, S3, DynamoDB, API Gateway, CloudFront, VPC, IAM)",
+                "Observability (OpenTelemetry, SLIs/SLOs, Distributed Tracing)",
+                "TypeScript, Node.js, Next.js",
+                "CI/CD",
+                "DevOps",
+                "Infrastructure as Code (CDK)",
+                "RAG",
+                "Generative AI",
+                "Site Reliability Engineering",
+                "Distributed Systems"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [
+                "LLM gateways, proxies, or AI workloads on AWS",
+                "FinOps experience",
+                "Self-hosted CI runners",
+                "Container build caching"
+            ],
+            "concerns": []
+        },
+        "final_score": 88.7,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "Junior DevOps Engineer",
+        "company": "Miratech",
+        "location": "Bengaluru, Karnataka, India (Remote)",
+        "url": "https://www.linkedin.com/jobs/view/4460721023",
+        "apply_url": "",
+        "description": "About the job Miratech helps visionaries change the world. We are a global IT services and consulting company that brings together enterprise and start-up innovation. Today, we support digital transformation for some of the world's largest enterprises. By partnering with both large and small players, we stay at the leading edge of technology, remain nimble even as a global leader, and create technology that helps our clients further enhance their business. We are a valuesdriven organization and our culture of Relentless Performance has enabled over 99% of Miratech's engagements to succeed by meeting or exceeding our scope, schedule, and/or budget objectives since our inception in 1989. Miratech has coverage across 5 continents and operates in 25 countries around the world. Miratech retains nearly 1000 full-time professionals, and our annual growth rate exceeds 25% Job Description Join us in revolutionizing customer experiences with our client, a global leader in cloud contact center software. As a Junior DevOps Engineer, you will help build and maintain the cloud infrastructure that powers the development and deployment of software used by thousands of customers worldwide. Responsibilities: Support the management and maintenance of Google Cloud Platform (GCP) infrastructure. Assist in ensuring the reliability, scalability, and performance of cloud services. Contribute to the design and maintenance of GitLab CI/CD pipelines. Work with Kubernetes, Argo CD, Argo Workflows, and Helm to support deployment automation and orchestration. Write and maintain automation scripts; familiarity with Python is a plus. Monitor system health using observability tools (Prometheus, Grafana, ELK/EFK). Collaborate with senior DevOps engineers to troubleshoot issues and implement best practices. Communicate effectively in English with team members across India and Portugal. Work primarily in India Standard Time (IST) with overlap for coordination with the Portugal-based team. Qualifications 3+ years of professional experience in DevOps, infrastructure, or platform engineering (internship or project-based experience also considered). Hands-on exposure to Google Cloud Platform (GCP) services (compute, networking, IAM). Basic understanding of Kubernetes, Argo CD, Helm and container orchestration. Familiarity with CI/CD concepts and GitLab pipelines. Knowledge of Linux fundamentals and system administration. Strong communication skills with the ability to collaborate effectively with global, cross-functional teams in different time zones. Flexibility to work in India hours with some overlap with the Portugal-based team. Eager to learn and grow in a collaborative environment. Nice to have: Exposure to other deployment automation tools is an advantage. Familiarity with observability tools (Prometheus, Grafana, ELK/EFK) is a plus. Additional Information Culture of Relentless Performance: join an unstoppable technology development team with a 99% project success rate and more than 30% year-over-year revenue growth. Competitive Pay and Benefits: enjoy a comprehensive compensation and benefits package, including health insurance, language courses, and a relocation program. Work From Anywhere Culture: make the most of the flexibility that comes with remote work. Growth Mindset: reap the benefits of a range of professional development opportunities, including certification programs, mentorship and talent investment programs, internal mobility and internship opportunities. Global Impact: collaborate on impactful projects for top global clients and shape the future of industries. Welcoming Multicultural Environment: be a part of a dynamic, global team and thrive in an inclusive and supportive work environment with open communication and regular team-building company social events. Social Sustainability Values: join our sustainable business practices focused on five pillars, including IT education, community empowerment, fair operating practices, environmental sustainability, and gender equality. Miratech is an equal opportunity employer and does not discriminate against any employee or applicant for employment on the basis of race, color, religion, sex, national origin, age, disability, veteran status, sexual orientation, gender identity, or any other protected status under applicable law.",
+        "posted_date": "2026-09-03",
+        "date_text": "1 day ago",
+        "insights": [
+            "Remote",
+            "Full-time"
+        ],
+        "salary": "",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [
+            "Medical insurance"
+        ],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 72.25,
+        "skill_score": 25.0,
+        "role_score": 95,
+        "experience_score": 80,
+        "domain_score": 100.0,
+        "education_score": 80,
+        "location_score": 100,
+        "matched_skills": [
+            "Python",
+            "GitLab CI/CD",
+            "Kubernetes"
+        ],
+        "missing_skills": [],
+        "required_experience": null,
+        "ai_evaluation": {
+            "fit_score": 95.0,
+            "recommendation": "APPLY",
+            "confidence": 95.0,
+            "reason": "Kriminal's profile demonstrates a strong alignment with the Junior DevOps Engineer role at Miratech. She has extensive experience in GCP, Kubernetes, and CI/CD, all of which are explicitly required. Her experience with observability tools (OpenTelemetry, New Relic, Splunk) is a significant plus, and her background in platform engineering and automation directly addresses the core responsibilities. The requirement for Python scripting aligns with her skills, and her experience with RAG pipelines is directly relevant to the described application. Her experience with a large enterprise client, coupled with her proactive approach to standardization and automation, suggests a good fit for a collaborative team environment. The fact that she is already working with Kubernetes and GCP is a massive advantage. Her experience creating RAG pipelines is a very strong fit for the requirements of this role.",
+            "matched_requirements": [
+                "GCP",
+                "Kubernetes",
+                "CI/CD",
+                "Automation",
+                "Observability (OpenTelemetry, New Relic, Splunk)",
+                "Terraform",
+                "GitLab CI/CD"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [],
+            "concerns": []
+        },
+        "final_score": 88.17,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "AI Software Engineer (Remote | $60–$120/hr)",
+        "company": "Synthires",
+        "location": "Bengaluru, Karnataka, India (Remote)",
+        "url": "https://www.linkedin.com/jobs/view/4459224413",
+        "apply_url": "",
+        "description": "About the job AI Engineer Position: AI Engineer Type: Hourly Contract (Part-Time) Compensation: $60–$120/hour Location: Remote About the Opportunity This opportunity is for experienced AI Engineers and Software Engineers with expertise in Python, Java, C++, Rust, TypeScript, algorithms, debugging, codebase refactoring, and performance optimization to contribute to advanced AI research and evaluation projects. You'll apply your software engineering expertise to create Reinforcement Learning (RL) environments that test AI models on complex software engineering workflows. Tasks may involve debugging, feature implementation, code refactoring, performance optimization, and working with Model Context Protocol (MCP) tools. No prior AI experience is required — your technical expertise is what matters. Responsibilities Design and develop Reinforcement Learning environments that evaluate AI models on realistic software engineering workflows. Create tasks involving bug fixing, feature implementation, codebase refactoring, and performance optimization. Develop reproducible environments with deterministic verification and golden reference solutions. Design workflows that require AI agents to discover and reason over information using MCP tools and real MCP servers. Evaluate AI-generated software solutions for correctness, maintainability, performance, and scalability. Apply strong knowledge of algorithms, data structures, debugging, and systems engineering to create challenging evaluation tasks. Provide structured technical feedback to improve AI model reasoning and software engineering capabilities. Collaborate with technical teams to maintain consistent evaluation standards and high-quality deliverables. Required Qualifications Strong proficiency in at least one of C++, Python, Java, Go, TypeScript, or Rust. Deep understanding of algorithms, data structures, and performance optimization. Demonstrated experience debugging complex software issues and delivering maintainable solutions. Strong background in feature development and codebase refactoring. Proven ability to optimize software for performance and scalability. Excellent analytical, problem-solving, written, and verbal communication skills. Strong attention to detail and ability to work independently. Experience collaborating effectively within cross-functional or remote engineering teams. Preferred Qualifications Experience working with large-scale or distributed codebases. Familiarity with AI, machine learning, generative AI, or AI agent systems. Experience with MCP, agentic workflows, or developer tools. Background in rigorous code reviews, software testing, and engineering best practices. Experience designing benchmarks, evaluation environments, or technical assessments. Familiarity with DevOps, CI/CD, cloud infrastructure, or systems engineering. Compensation Competitive compensation of $60–$120/hour. Hourly contract engagement. Part-time opportunity of approximately 15 hours per week. Fully remote with flexible scheduling, including the option to choose your preferred working days and hours. Output-based compensation may apply, with payment based on completed tasks meeting project specifications. Application Process Apply to the role and complete the required screening questions Complete an AI interview of approximately 30 minutes Complete the technical assessment, if required Hiring Manager review Complete onboarding and begin the engagement",
+        "posted_date": "2026-09-01",
+        "date_text": "3 days ago",
+        "insights": [
+            "$60/hr - $120/hr",
+            "Remote",
+            "Part-time"
+        ],
+        "salary": "$60/hr - $120/hr",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 71.0,
+        "skill_score": 25.0,
+        "role_score": 90,
+        "experience_score": 80,
+        "domain_score": 100.0,
+        "education_score": 80,
+        "location_score": 100,
+        "matched_skills": [
+            "Java",
+            "Python",
+            "Generative AI"
+        ],
+        "missing_skills": [
+            "typescript",
+            "c",
+            "go",
+            "rust",
+            "machine learning"
+        ],
+        "required_experience": null,
+        "ai_evaluation": {
+            "fit_score": 95.0,
+            "recommendation": "APPLY",
+            "confidence": 0.95,
+            "reason": "Kriminal's profile demonstrates a strong alignment with the job requirements. They have significant experience in observability, monitoring, and automation – core areas emphasized in the job description. Their skills in Python, Java, Kubernetes, and experience building RAG pipelines directly address the stated needs. The focus on Reinforcement Learning environments and MCP tools, while not explicitly stated as a requirement, aligns strongly with Kriminal's expertise in creating robust and reliable systems, which is what Synthires is seeking. The candidate's background in performance optimization and debugging is also a perfect match. The hourly contract and remote nature are also a good fit based on the provided profile.",
+            "matched_requirements": [
+                "Python",
+                "Java",
+                "Kubernetes",
+                "Observability (OpenTelemetry, New Relic, Splunk, SLIs/SLOs, Distributed Tracing)",
+                "RAG Pipelines",
+                "Performance Optimization",
+                "Debugging",
+                "Reinforcement Learning Environments",
+                "MCP Tools"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [
+                "Go",
+                "Rust",
+                "TypeScript"
+            ],
+            "concerns": []
+        },
+        "final_score": 87.8,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "AI Software Engineer (Remote | $60–$120/hr)",
+        "company": "Synthires",
+        "location": "India (Remote)",
+        "url": "https://www.linkedin.com/jobs/view/4459216869",
+        "apply_url": "",
+        "description": "About the job AI Engineer Position: AI Engineer Type: Hourly Contract (Part-Time) Compensation: $60–$120/hour Location: Remote About the Opportunity This opportunity is for experienced AI Engineers and Software Engineers with expertise in Python, Java, C++, Rust, TypeScript, algorithms, debugging, codebase refactoring, and performance optimization to contribute to advanced AI research and evaluation projects. You'll apply your software engineering expertise to create Reinforcement Learning (RL) environments that test AI models on complex software engineering workflows. Tasks may involve debugging, feature implementation, code refactoring, performance optimization, and working with Model Context Protocol (MCP) tools. No prior AI experience is required — your technical expertise is what matters. Responsibilities Design and develop Reinforcement Learning environments that evaluate AI models on realistic software engineering workflows. Create tasks involving bug fixing, feature implementation, codebase refactoring, and performance optimization. Develop reproducible environments with deterministic verification and golden reference solutions. Design workflows that require AI agents to discover and reason over information using MCP tools and real MCP servers. Evaluate AI-generated software solutions for correctness, maintainability, performance, and scalability. Apply strong knowledge of algorithms, data structures, debugging, and systems engineering to create challenging evaluation tasks. Provide structured technical feedback to improve AI model reasoning and software engineering capabilities. Collaborate with technical teams to maintain consistent evaluation standards and high-quality deliverables. Required Qualifications Strong proficiency in at least one of C++, Python, Java, Go, TypeScript, or Rust. Deep understanding of algorithms, data structures, and performance optimization. Demonstrated experience debugging complex software issues and delivering maintainable solutions. Strong background in feature development and codebase refactoring. Proven ability to optimize software for performance and scalability. Excellent analytical, problem-solving, written, and verbal communication skills. Strong attention to detail and ability to work independently. Experience collaborating effectively within cross-functional or remote engineering teams. Preferred Qualifications Experience working with large-scale or distributed codebases. Familiarity with AI, machine learning, generative AI, or AI agent systems. Experience with MCP, agentic workflows, or developer tools. Background in rigorous code reviews, software testing, and engineering best practices. Experience designing benchmarks, evaluation environments, or technical assessments. Familiarity with DevOps, CI/CD, cloud infrastructure, or systems engineering. Compensation Competitive compensation of $60–$120/hour. Hourly contract engagement. Part-time opportunity of approximately 15 hours per week. Fully remote with flexible scheduling, including the option to choose your preferred working days and hours. Output-based compensation may apply, with payment based on completed tasks meeting project specifications. Application Process Apply to the role and complete the required screening questions Complete an AI interview of approximately 30 minutes Complete the technical assessment, if required Hiring Manager review Complete onboarding and begin the engagement",
+        "posted_date": "2026-09-01",
+        "date_text": "3 days ago",
+        "insights": [
+            "$60/hr - $120/hr",
+            "Remote",
+            "Part-time"
+        ],
+        "salary": "$60/hr - $120/hr",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 70.75,
+        "skill_score": 25.0,
+        "role_score": 90,
+        "experience_score": 80,
+        "domain_score": 100.0,
+        "education_score": 80,
+        "location_score": 95,
+        "matched_skills": [
+            "Java",
+            "Python",
+            "Generative AI"
+        ],
+        "missing_skills": [
+            "typescript",
+            "c",
+            "go",
+            "rust",
+            "machine learning"
+        ],
+        "required_experience": null,
+        "ai_evaluation": {
+            "fit_score": 95.0,
+            "recommendation": "APPLY",
+            "confidence": 0.95,
+            "reason": "Kriminal's profile strongly aligns with the job requirements. She has significant experience in observability, monitoring, and automation, directly relevant to the \"Reinforcement Learning environments\" and \"MCP tools\" mentioned in the job description. Her expertise in Python, Java, and related frameworks (Spring Boot, TensorFlow, LangChain) matches the required proficiency. Her background in RAG pipelines and GenAI is a key alignment.  Her experience with Kubernetes, observability tools, and performance optimization are also highly relevant. While the job doesn’t explicitly require AI experience, Kriminal’s skillset allows her to quickly adapt and contribute effectively. The remote, part-time nature of the role also suits her experience.",
+            "matched_requirements": [
+                "Python",
+                "Java",
+                "Kubernetes",
+                "Observability (OpenTelemetry, New Relic, Splunk, SLOs, Tracing)",
+                "RAG Pipelines",
+                "GenAI",
+                "Spring Boot",
+                "LangChain",
+                "Performance optimization"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [
+                "Go",
+                "Rust"
+            ],
+            "concerns": []
+        },
+        "final_score": 87.72,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "Generative AI Engineer",
+        "company": "Bandhan Technologies",
+        "location": "Greater Bengaluru Area (On-site)",
+        "url": "https://www.linkedin.com/jobs/view/4460007980",
+        "apply_url": "",
+        "description": "About the job Role Summary Design, develop and deploy AI-powered applications using Google Cloud Platform. Build intelligent solutions supporting content discovery, audience engagement, campaign analytics, content intelligence, personalization and operational automation within digital media environments. Key Outcomes (First 6 Months) Deliver production-grade AI applications on GCP. Develop scalable GenAI and machine learning solutions. Implement engineering standards, monitoring and governance. Support business use cases with measurable ROI and adoption. Responsibilities Develop AI and GenAI applications using Python and GCP services. Build APIs and AI services using FastAPI and cloud-native architectures. Integrate Gemini models, Vertex AI and enterprise data sources. Implement RAG-based knowledge solutions using Vector Search and BigQuery. Develop recommendation, classification, summarization and search solutions. Collaborate with Data Engineers, Architects, Product Teams and DevOps Engineers. Implement testing, monitoring, observability and deployment pipelines. Optimize AI solutions for performance, scalability and cost efficiency. Core GCP AI Skills Vertex AI Gemini Models Vertex AI Search Vector Search BigQuery Cloud Storage Cloud Run Cloud Functions Pub/Sub Dataflow AI & Machine Learning Skills Prompt Engineering Retrieval Augmented Generation (RAG) Embeddings Model Evaluation Recommendation Systems NLP Applications Document Intelligence Conversational AI Digital Media Experience Preferred Content recommendation engines Audience segmentation and analytics Advertising performance analytics Content metadata enrichment Subscriber and retention analytics Personalization and customer engagement solutions Software Engineering Python FastAPI REST APIs Docker Git CI/CD Unit Testing Integration Testing Observability & Security Cloud Monitoring Cloud Logging IAM Secret Manager Cloud KMS Audit Logging Responsible AI controls Qualifications Bachelor or Master degree in Computer Science, AI, Data Science or related discipline 2-5 years of software engineering or AI development experience Strong Python programming skills Experience with GCP AI services preferred",
+        "posted_date": "2026-09-01",
+        "date_text": "3 days ago",
+        "insights": [
+            "Up to 2M INR/yr",
+            "On-site",
+            "Full-time"
+        ],
+        "salary": "Up to 2M INR/yr",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 68.75,
+        "skill_score": 33.33,
+        "role_score": 85,
+        "experience_score": 50,
+        "domain_score": 100.0,
+        "education_score": 100,
+        "location_score": 100,
+        "matched_skills": [
+            "Python",
+            "Docker",
+            "Generative AI",
+            "RAG"
+        ],
+        "missing_skills": [
+            "fastapi",
+            "machine learning",
+            "genai",
+            "vector search",
+            "bigquery",
+            "vertex ai",
+            "gemini"
+        ],
+        "required_experience": 5.0,
+        "ai_evaluation": {
+            "fit_score": 95.0,
+            "recommendation": "APPLY",
+            "confidence": 95.0,
+            "reason": "Kriminal's profile aligns exceptionally well with the Generative AI Engineer role at Bandhan Technologies. Their experience in building and deploying AI applications, particularly with Google Cloud Platform (GCP), including Vertex AI, Gemini, and BigQuery, directly addresses the core responsibilities outlined in the job description. The emphasis on RAG pipelines and GenAI solutions aligns perfectly with the role's focus.  Their demonstrated skills in Python, FastAPI, and related technologies also match the required technical skills. The experience with observability, monitoring, and instrumentation, a crucial aspect of deploying AI solutions, further strengthens the fit. The strong academic background and certifications in AI/ML and Google Cloud further bolster their suitability. The candidate’s projects involving GenAI and RAG align perfectly with the job requirements.",
+            "matched_requirements": [
+                "Vertex AI",
+                "Gemini Models",
+                "BigQuery",
+                "Google Cloud Platform (GCP)",
+                "Python",
+                "RAG pipelines",
+                "Generative AI",
+                "Observability",
+                "Monitoring",
+                "FastAPI",
+                "Vector Search"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [
+                "Content recommendation engines",
+                "Audience segmentation and analytics",
+                "Advertising performance analytics",
+                "Content metadata enrichment",
+                "Subscriber and retention analytics",
+                "Personalization and customer engagement solutions"
+            ],
+            "concerns": []
+        },
+        "final_score": 87.12,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "AI Solutions Analyst/AI Engineer",
+        "company": "Zamp",
+        "location": "Bengaluru, Karnataka, India (On-site)",
+        "url": "https://www.linkedin.com/jobs/view/4426218663",
+        "apply_url": "",
+        "description": "About the job About Zamp: Mission - Zamp is not a company, we’re a humanity catalyst. We’re on a mission to enable people to move at the speed of thought. This decade, we’re focused on building digital employees for the future of work, unlocking human creativity at a scale the world has never seen. We work with 50+ top global organizations and banks (including DoorDash, Uber, and Stripe) with billions in revenue. We raised a $22M seed round in 2022 from Sequoia Capital, Dara Khosrowshahi (CEO, Uber), Tony Xu (CEO, DoorDash), and other global leaders. One aspect of our purpose is to build what we believe to be the world’s best team, passionate, authentic, and relentlessly curious people who want to do their life’s best work, learn as much as possible, and create outsized impact. Hear more from the founders here. Role Overview : As an AI Solution Analyst – AI Workflows at Zamp.ai, you will operate as a key business partner on the front line. Your primary focus is to deeply understand customer processes, capture workflow requirements, and translate them into precise, high-quality AI workflows on our platform using our code generation platform. You will collaborate with internal teams and customers to unpack real operational challenges, formalise problem statements, and ensure the workflows created truly reflect business needs. The role is rooted in business analysis, process understanding, and structured problem-solving, with a strong emphasis on clarity, accuracy, and customer impact. At its core, this is a business-driven role that leverages AI to transform customer operations into reliable, measurable, and scalable workflows. Responsibilities : Workflow Definition & Implementation: Translate customer and internal business process requirements into workflow specifications, then use our internal AI tooling to generate code and assemble workflow logic and automation. End-to-End Ownership: Validate workflows end-to-end — from design through testing, to production rollout and performance monitoring. Cross-Functional Collaboration: Serve as the critical link between business teams, product & engineering. Provide feedback on workflow patterns, tool improvement and platform capabilities. Customer & Stakeholder Enablement: Work with customer-facing teams to onboard workflow solutions, ensure they run smoothly, and support adoption and feedback-loops. Business Impact Tracking: Monitor workflow performance, measure KPIs/ROI, communicate value and insights to both technical and non-technical stakeholders. Qualifications : 0–2 years of professional experience (including internships) in business/analyst roles or equivalent. Strong academic foundation; candidates from top-tier institutes (IITs and other premier colleges) preferred. Undergraduate degree in Computer Science (or equivalent) strongly preferred, with proficiency in basic programming (e.g., Python, JavaScript) and a passion for building solutions. Excellent problem-solving skills, clarity of thought, and structured approach to workflow or process modelling. Initiative and ownership mindset: you thrive in fast-moving, ambiguous environments and proactively drive results. Strong communication skills and customer orientation: you can translate business needs into technical/solution language and interact effectively across teams. Our Culture & Benefits : At Zamp.ai, we foster a culture of transparency, meritocracy, and empowerment. Join a lean, high-velocity team where your impact is visible, your work matters, and you’ll grow quickly. Perks include: Competitive salary + stock options with upside. Collaborative environment working with top-tier talent. Inclusive and diverse workspace. Comprehensive medical insurance for employees, spouse and dependents. Continuous learning and development opportunities. Office with comfortable work setting and excellent amenities.",
+        "posted_date": "2026-09-03",
+        "date_text": "Reposted 1 day ago",
+        "insights": [
+            "On-site",
+            "Full-time"
+        ],
+        "salary": "",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [
+            "Medical insurance"
+        ],
+        "reposted": true,
+        "source": "linkedin",
+        "rule_based_score": 68.25,
+        "skill_score": 16.67,
+        "role_score": 85,
+        "experience_score": 80,
+        "domain_score": 100.0,
+        "education_score": 100,
+        "location_score": 100,
+        "matched_skills": [
+            "Python",
+            "JavaScript"
+        ],
+        "missing_skills": [],
+        "required_experience": null,
+        "ai_evaluation": {
+            "fit_score": 95.0,
+            "recommendation": "APPLY",
+            "confidence": 0.95,
+            "reason": "Kriminal's profile demonstrates a strong alignment with the job requirements at Zamp. She has significant experience in observability, automation, and workflow design, which are core to Zamp’s AI solution building process. Her background in building AI-powered workflows with tools like LangChain and RAG, combined with her strong understanding of DevOps principles (Kubernetes, Terraform), aligns perfectly with the role's focus on translating business needs into AI workflows.  Her experience in a fast-paced environment (Telstra), combined with her academic background, makes her an ideal candidate. The 'Business-driven role that leverages AI' aligns precisely with her experience. The emphasis on process understanding and structured problem-solving is precisely what the job description asks for.",
+            "matched_requirements": [
+                "Workflow Definition & Implementation",
+                "End-to-End Ownership",
+                "Cross-Functional Collaboration",
+                "Customer & Stakeholder Enablement",
+                "Business Impact Tracking"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [],
+            "concerns": []
+        },
+        "final_score": 86.97,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "Junior AI Engineer",
+        "company": "Planso",
+        "location": "Bengaluru, Karnataka, India (On-site)",
+        "url": "https://www.linkedin.com/jobs/view/4460951522",
+        "apply_url": "",
+        "description": "About the job Planso builds AI-powered decision-intelligence products for the global architecture, engineering and construction industry. We work on complex problems involving enterprise data, documents and domain-specific reasoning. Responsibilities Build and evaluate LLM-powered product capabilities. Develop pipelines for document understanding, information extraction and retrieval. Experiment with embeddings, reranking, RAG and agentic workflows. Create evaluation datasets and measure accuracy, relevance and reliability. Analyse failure cases and improve prompts, models and guardrails. Work with engineers and domain specialists to take prototypes into production. Maintain clear documentation of experiments and technical decisions. What we are looking for Strong Python and programming fundamentals. Understanding of machine learning, NLP or information retrieval. Familiarity with LLM APIs, embeddings and RAG. Ability to work with structured and unstructured data. Understanding of evaluation metrics such as precision and recall. Strong problem-solving ability, ownership and curiosity. Candidates from IITs, NITs and BITS are preferred. Good to have Experience with PyTorch, Hugging Face, LangChain, LangGraph or LlamaIndex. Exposure to vector databases, knowledge graphs or document-processing systems. Experience building APIs using FastAPI. Relevant internship, academic or personal projects. What you will gain Experience building production-grade applied AI systems. Exposure to enterprise AI and complex real-world data. Opportunity to work closely with the founding and engineering teams. Significant ownership and a fast learning environment.",
+        "posted_date": "2026-09-03",
+        "date_text": "1 day ago",
+        "insights": [
+            "On-site",
+            "Full-time"
+        ],
+        "salary": "",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 72.25,
+        "skill_score": 33.33,
+        "role_score": 85,
+        "experience_score": 80,
+        "domain_score": 100.0,
+        "education_score": 80,
+        "location_score": 100,
+        "matched_skills": [
+            "Python",
+            "PyTorch",
+            "LangChain",
+            "RAG"
+        ],
+        "missing_skills": [
+            "fastapi",
+            "machine learning",
+            "llm"
+        ],
+        "required_experience": null,
+        "ai_evaluation": {
+            "fit_score": 92.0,
+            "recommendation": "APPLY",
+            "confidence": 95.0,
+            "reason": "Krina's profile demonstrates a strong fit for the Junior AI Engineer role at Planso. Her experience in building and deploying AI models, particularly with generative AI and RAG pipelines, aligns directly with the job description's requirements. The focus on observability, monitoring, and automation reflects a similar approach to AI system development. Her experience with LangChain, vector databases, and LLM APIs makes her a strong candidate. The preference for IIT/NIT/BITS graduates is also met.",
+            "matched_requirements": [
+                "Build and evaluate LLM-powered product capabilities",
+                "Develop pipelines for document understanding, information extraction and retrieval",
+                "Experiment with embeddings, reranking, RAG and agentic workflows",
+                "Create evaluation datasets and measure accuracy, relevance and reliability",
+                "Analyze failure cases and improve prompts, models and guardrails",
+                "Develop pipelines for document understanding, information extraction and retrieval",
+                "Build and evaluate LLM-powered product capabilities",
+                "Experience with LangChain",
+                "Experience with vector databases"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [
+                "Experience building APIs using FastAPI"
+            ],
+            "concerns": []
+        },
+        "final_score": 86.07,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "Backend Engineer (SDE 1)",
+        "company": "Kredivo Group",
+        "location": "Bengaluru, Karnataka, India (On-site)",
+        "url": "https://www.linkedin.com/jobs/view/4456861392",
+        "apply_url": "",
+        "description": "About the job About The Job Programming Basics: Programming language related questions - Python/Go experience is good to have. Questions around our tech-stack - Kafka/AWS/MySQL/etc. Data Structures: Questions related to data structures and algorithms - typically in a time-based interview format, to assess critical thinking around: Reading/clarifying the problem statement. Considering edge-cases. Dividing the problem into sub-problems - with smaller, better testable functions. Variable/function naming conventions. Time complexity - Should be able to explain the time-complexity. But, as our scale doesn’t always need very optimised code, we don’t need the most optimal algorithm. Space complexity - Should be able to explain space-complexity. Database Schema Design: This is helpful to understand lower-level design skills, as well as database management and optimisation techniques. Familiarity with relational database management systems (RDBMS) such as MySQL, PostgreSQL, or Oracle, and experience in designing and implementing normalised database schemas is good to have. Additionally, knowledge of non-relational database systems such as MongoDB or Cassandra is a plus. Experience in data modelling, normalisation, denormalisation, indexing, and query optimisation is also a plus. Testing and Debugging: Questions related to unit testing, integration testing, and debugging techniques About You 1-3 years of hands-on experience in designing, developing, testing, and deploying small to mid-scale applications in any language or stack. 2+ years of recent and active software development experience Should be clear and concise in communication Should be able to express their thoughts/opinions clearly.",
+        "posted_date": "2026-08-28",
+        "date_text": "1 week ago",
+        "insights": [
+            "On-site",
+            "Full-time"
+        ],
+        "salary": "",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 71.5,
+        "skill_score": 16.67,
+        "role_score": 90,
+        "experience_score": 100,
+        "domain_score": 100.0,
+        "education_score": 80,
+        "location_score": 100,
+        "matched_skills": [
+            "Python",
+            "AWS"
+        ],
+        "missing_skills": [
+            "go",
+            "postgresql",
+            "mysql",
+            "mongodb",
+            "kafka"
+        ],
+        "required_experience": 3.0,
+        "ai_evaluation": {
+            "fit_score": 92.0,
+            "recommendation": "APPLY",
+            "confidence": 0.95,
+            "reason": "Kriminal's profile demonstrates a strong fit for the Backend Engineer role at Kredivo. She has direct experience in backend development, observability, and automation, aligning well with the job's emphasis on Python, Kafka, AWS, and MySQL. Her experience with Kubernetes and microservices directly addresses the role's requirements. Notably, she has demonstrated experience with RAG pipelines and generative AI, aligning with Kredivo's needs. While the job description focuses on basic programming questions, Kriminal's extensive experience across multiple technologies, including recent work with RAG and GenAI, makes her a compelling candidate. The interview would be focused on core coding and problem-solving skills, which she is likely well-prepared for.",
+            "matched_requirements": [
+                "Python",
+                "AWS",
+                "Kubernetes",
+                "Microservices",
+                "Observability",
+                "RAG Pipelines"
+            ],
+            "missing_required_skills": [
+                "Go"
+            ],
+            "missing_preferred_skills": [
+                "MySQL",
+                "PostgreSQL",
+                "Oracle"
+            ],
+            "concerns": []
+        },
+        "final_score": 85.85,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "AI Engineer",
+        "company": "KPMG India",
+        "location": "Bengaluru, Karnataka, India (On-site)",
+        "url": "https://www.linkedin.com/jobs/view/4424661969",
+        "apply_url": "",
+        "description": "About the job Full-time, on-site role for an AI Engineer (LLM & Application Development), based in Bengaluru, Mumbai, NCR or Hyderabad. Experience Level: 4–8 Years Role Overview We are looking for a skilled AI Engineer with a strong foundation in software engineering and production-grade application development. In this role, you will bridge the gap between cutting-edge AI research and practical, scalable software. You will be responsible for designing, building, and deploying AI-powered applications, with a heavy focus on Large Language Models (LLMs), prompt engineering, and robust Python backends. If you have 4–8 years of experience turning complex AI concepts into reliable, user-facing applications, we want to hear from you. Key Responsibilities • AI & LLM Integration: Design, build, and optimize applications leveraging LLMs (OpenAI, Anthropic, open-source models). Implement advanced techniques like RAG (Retrieval-Augmented Generation), agentic workflows, and fine-tuning. • Backend Application Development: Write clean, maintainable, and scalable Python code to build robust APIs and backend services that support AI features. • Software Engineering Excellence: Apply rigorous software engineering practices, including CI/CD pipelines, automated testing, version control (Git), and containerization (Docker/Kubernetes). • Architecture & Scalability: Optimize AI pipelines for latency, cost, and throughput. Ensure seamless data flow between vector databases (e.g., Pinecone, Chroma, Milvus) and core application logic. • Collaboration: Partner with product managers, data scientists, and front-end engineers to take AI features from prototype to production. Required Skills & Qualifications • Experience: 4–8 years of professional software engineering experience, with at least 2 years dedicated to building and deploying AI/LLM-powered applications. • Core Language: Mastery of Python and its ecosystem (FastAPI, Flask, or Django). • LLM Tooling: Deep hands-on experience with frameworks like LangChain, LlamaIndex, or AutoGen, and familiarity with vector databases. • Software Engineering: Strong understanding of data structures, system design, RESTful APIs, and microservices architecture. • Cloud & DevOps: Experience deploying applications on cloud platforms (AWS, GCP, or Azure) and managing MLOps/LLMOps pipelines. • Education: Bachelor’s or Master’s degree in Computer Science, Engineering, or a related technical field (or equivalent practical experience). Nice-to-Haves • Experience with frontend technologies (React, TypeScript) for rapid prototyping. • Evaluation framework experience (e.g., Ragas, TruLens) to monitor and benchmark LLM outputs. • Contributions to open-source AI or software projects.",
+        "posted_date": "2026-06-06",
+        "date_text": "3 months ago",
+        "insights": [
+            "On-site",
+            "Full-time"
+        ],
+        "salary": "",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 70.25,
+        "skill_score": 58.33,
+        "role_score": 85,
+        "experience_score": 10,
+        "domain_score": 100.0,
+        "education_score": 100,
+        "location_score": 100,
+        "matched_skills": [
+            "Python",
+            "React",
+            "LangChain",
+            "AWS",
+            "Docker",
+            "Kubernetes",
+            "RAG"
+        ],
+        "missing_skills": [
+            "typescript",
+            "fastapi",
+            "azure",
+            "mlops",
+            "llm"
+        ],
+        "required_experience": 8.0,
+        "ai_evaluation": {
+            "fit_score": 92.0,
+            "recommendation": "APPLY",
+            "confidence": 95.0,
+            "reason": "Kriminal's profile aligns exceptionally well with the AI Engineer role at KPMG India. She has direct experience building and deploying AI applications, specializing in LLMs, RAG pipelines, and LangChain – all of which are core requirements of the job. Her experience with observability, distributed systems, and Kubernetes is also highly relevant, given the focus on scalability and reliability. The emphasis on Python backend development and working with vector databases matches her skills perfectly. The ‘Nice-to-Have’ of frontend experience and evaluation frameworks further strengthens her fit.",
+            "matched_requirements": [
+                "Python",
+                "LangChain",
+                "RAG (Retrieval-Augmented Generation)",
+                "Vector Databases (Pinecone, Chroma, Milvus)",
+                "LLM Tooling (OpenAI, Anthropic, open-source models)",
+                "Kubernetes",
+                "Observability",
+                "Distributed Tracing",
+                "API Development",
+                "Microservices Architecture",
+                "Cloud Platforms (AWS, GCP, or Azure)"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [
+                "React",
+                "TypeScript",
+                "Ragas",
+                "TruLens"
+            ],
+            "concerns": []
+        },
+        "final_score": 85.47,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "AI Engineer (Remote | $60–$120/hr)",
+        "company": "Synthires",
+        "location": "India (Remote)",
+        "url": "https://www.linkedin.com/jobs/view/4459216718",
+        "apply_url": "",
+        "description": "About the job AI Engineer Position: AI Engineer Type: Hourly Contract (Part-Time) Compensation: $60–$120/hour Location: Remote About the Opportunity This opportunity is for experienced AI Engineers and Software Engineers with expertise in Python, Java, C++, Rust, TypeScript, algorithms, debugging, codebase refactoring, and performance optimization to contribute to advanced AI research and evaluation projects. You'll apply your software engineering expertise to create Reinforcement Learning (RL) environments that test AI models on complex software engineering workflows. Tasks may involve debugging, feature implementation, code refactoring, performance optimization, and working with Model Context Protocol (MCP) tools. No prior AI experience is required — your technical expertise is what matters. Responsibilities Design and develop Reinforcement Learning environments that evaluate AI models on realistic software engineering workflows. Create tasks involving bug fixing, feature implementation, codebase refactoring, and performance optimization. Develop reproducible environments with deterministic verification and golden reference solutions. Design workflows that require AI agents to discover and reason over information using MCP tools and real MCP servers. Evaluate AI-generated software solutions for correctness, maintainability, performance, and scalability. Apply strong knowledge of algorithms, data structures, debugging, and systems engineering to create challenging evaluation tasks. Provide structured technical feedback to improve AI model reasoning and software engineering capabilities. Collaborate with technical teams to maintain consistent evaluation standards and high-quality deliverables. Required Qualifications Strong proficiency in at least one of C++, Python, Java, Go, TypeScript, or Rust. Deep understanding of algorithms, data structures, and performance optimization. Demonstrated experience debugging complex software issues and delivering maintainable solutions. Strong background in feature development and codebase refactoring. Proven ability to optimize software for performance and scalability. Excellent analytical, problem-solving, written, and verbal communication skills. Strong attention to detail and ability to work independently. Experience collaborating effectively within cross-functional or remote engineering teams. Preferred Qualifications Experience working with large-scale or distributed codebases. Familiarity with AI, machine learning, generative AI, or AI agent systems. Experience with MCP, agentic workflows, or developer tools. Background in rigorous code reviews, software testing, and engineering best practices. Experience designing benchmarks, evaluation environments, or technical assessments. Familiarity with DevOps, CI/CD, cloud infrastructure, or systems engineering. Compensation Competitive compensation of $60–$120/hour. Hourly contract engagement. Part-time opportunity of approximately 15 hours per week. Fully remote with flexible scheduling, including the option to choose your preferred working days and hours. Output-based compensation may apply, with payment based on completed tasks meeting project specifications. Application Process Apply to the role and complete the required screening questions Complete an AI interview of approximately 30 minutes Complete the technical assessment, if required Hiring Manager review Complete onboarding and begin the engagement",
+        "posted_date": "2026-09-01",
+        "date_text": "3 days ago",
+        "insights": [
+            "$60/hr - $120/hr",
+            "Remote",
+            "Part-time"
+        ],
+        "salary": "$60/hr - $120/hr",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 69.5,
+        "skill_score": 25.0,
+        "role_score": 85,
+        "experience_score": 80,
+        "domain_score": 100.0,
+        "education_score": 80,
+        "location_score": 95,
+        "matched_skills": [
+            "Java",
+            "Python",
+            "Generative AI"
+        ],
+        "missing_skills": [
+            "typescript",
+            "c",
+            "go",
+            "rust",
+            "machine learning"
+        ],
+        "required_experience": null,
+        "ai_evaluation": {
+            "fit_score": 92.0,
+            "recommendation": "APPLY",
+            "confidence": 95.0,
+            "reason": "Krina’s profile demonstrates a strong and directly relevant skill set for this role. Her experience in observability, automation, and platform engineering aligns perfectly with the job’s focus on evaluating AI models on complex software engineering workflows. The skills in Python, Java, Kubernetes, and experience with model context protocol aligns directly with the requirements. Her experience with RAG pipelines and generative AI further increases the fit. The hourly contract and part-time nature are also a good fit for her experience.",
+            "matched_requirements": [
+                "Python",
+                "Java",
+                "Kubernetes",
+                "Model Context Protocol",
+                "Reinforcement Learning",
+                "Software Engineering workflows",
+                "RAG Pipelines"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [
+                "C++",
+                "Go",
+                "TypeScript",
+                "Rust"
+            ],
+            "concerns": []
+        },
+        "final_score": 85.25,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "Data Science Intern",
+        "company": "Sony Research India",
+        "location": "Bengaluru, Karnataka, India (Remote)",
+        "url": "https://www.linkedin.com/jobs/view/4449971505",
+        "apply_url": "",
+        "description": "About the job Sony Research India is driving cutting-edge research and development in various locations around the globe, including laboratories in Japan, the United States, Europe, and Asia. We endeavor to create new technology, products, and services while sustaining Sony Group’s diverse businesses in electronics, entertainment, and financial fields. For our research center to blaze a trail in the latest technologies, we seek to foster the growth of a diverse pool of research and engineering talent and create a technology talent bank to drive research excellence worldwide. Sony Research India is offering outstanding career opportunities around frontline technologies such as AI and data analytics. We are seeking a highly motivated and technically sound AI Intern to help accelerate the next generation of our predictive algorithms and video analysis architectures. In this role, you will transition seamlessly between exploration and execution: parsing complex data, testing frontier machine learning techniques, and translating business hypotheses into robust software assets. You will work on high-impact projects reaching production level infrastructure. Work Location: Remote work within India. Duration of the paid internship: The paid internship will be for six months starting first week of September 2026. The working hours are from 9:00 IST to 18:00 IST (Monday to Friday). Education: Currently pursuing MS, MTech or an with B.Tech, or advanced Undergraduate degree in Computer Science, Data Science, Statistics, Mathematics, or a parallel quantitative domain. Responsibilities: Analyze Massive Datasets: Mine, clean, and analyze, high-dimensional user interaction data, identifying latent behavioural structures and transforming noisy signals into highly optimized feature spaces. Analyse and Translate data annotations into actionable insights. Implement Cutting-Edge Algos: Design, build, and optimize cutting-edge AI/ML models. Cross-Functional Collaboration: Serve as the primary connective tissue between core engineering divisions and strategic business units. Translate complex model outputs into transparent operational metrics, ensuring technical decisions strictly align with company KPIs. Scale & Deploy: Participate in writing production-ready, clean, and modular code to scale pipelines and model architectures within modern cloud environments. Experimentation & Evaluation: Formulate rigorous offline verification frameworks and contribute to online A/B testing methodologies to gauge system performance. Must-Have Skills: Demonstratable skills in AI/ML, specifically Video Analysis algorithms, LLMs. Strong grasp of supervised/unsupervised paradigms, loss functions, and bias mitigation. Data & Engineering Stack Advanced proficiency in Python and core packages (PyTorch, TensorFlow, Jax, ScikitLearn). Good to Have Skills: Experience handling big data via distributed tools (SQL, PySpark, Polars, Arrow) Our Values: Dreams & Curiosity: Pioneer the future with dreams and curiosity. Diversity: Pursue the creation of the very best by harnessing diversity and varying viewpoints. Integrity & Sincerity: Earn the trust for Sony brand through ethical and responsible conduct. Sustainability: Fulfil our stakeholder responsibilities through disciplined business practices. Sony Research India is committed to equal opportunity in all its employment practices, policies and procedures and to ensuring that no worker or potential worker will receive less favourable treatment due to any characteristic protected under applicable local laws.",
+        "posted_date": "2026-08-07",
+        "date_text": "4 weeks ago",
+        "insights": [
+            "Up to 900K INR/yr",
+            "Remote",
+            "Internship"
+        ],
+        "salary": "Up to 900K INR/yr",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 67.0,
+        "skill_score": 41.67,
+        "role_score": 50,
+        "experience_score": 80,
+        "domain_score": 100.0,
+        "education_score": 100,
+        "location_score": 100,
+        "matched_skills": [
+            "Python",
+            "TensorFlow",
+            "PyTorch",
+            "SQL",
+            "PySpark"
+        ],
+        "missing_skills": [
+            "machine learning"
+        ],
+        "required_experience": null,
+        "ai_evaluation": {
+            "fit_score": 93.0,
+            "recommendation": "APPLY",
+            "confidence": 95.0,
+            "reason": "Kriminal's profile demonstrates a strong alignment with the Data Science Intern role at Sony Research India. Their extensive experience in observability, monitoring, and automation, coupled with their proficiency in Python, TensorFlow, PyTorch, and LangChain, directly addresses the 'Must-Have Skills' listed in the job description. Their experience with RAG pipelines and generative AI (specifically with Gemini), and experience with LLMs align perfectly with the focus on video analysis algorithms and cutting-edge AI/ML models. Their academic background and certifications further bolster their suitability. The internship's remote nature and compensation (up to 900K INR/yr) are a strong bonus.",
+            "matched_requirements": [
+                "AI/ML",
+                "Video Analysis algorithms",
+                "LLMs",
+                "Python",
+                "PyTorch",
+                "TensorFlow",
+                "Generative AI",
+                "RAG pipelines"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [
+                "SQL",
+                "PySpark",
+                "Polars",
+                "Arrow"
+            ],
+            "concerns": []
+        },
+        "final_score": 85.2,
+        "recommendation": "STRONG MATCH"
+    },
+    {
+        "title": "AI Scientist 1",
+        "company": "Navi",
+        "location": "Bengaluru, Karnataka, India (On-site)",
+        "url": "https://www.linkedin.com/jobs/view/4456866258",
+        "apply_url": "",
+        "description": "About the job About the Team Navi’s GenAI team is transforming how AI powers financial services in India. We are embedding advanced AI that directly impacts millions of users across Lending, Payments, Insurance, and Investments. As a cross-functional team of engineers, researchers, and product leaders, we work at the intersection of cutting-edge AI and real business problems-shipping fast, learning constantly, and scaling what works. About the Role At Navi, our GenAI team leads the charge in transforming the fintech landscape with state-of-the-art AI systems that redefine lending, insurance, investments and more. We're not just innovators—we're trailblazers, constantly pushing the boundaries to develop solutions that accelerate business growth, enhance customer experiences, and streamline operations. Imagine working in an environment where your curiosity is your guide and every day presents an opportunity to make groundbreaking discoveries. Our expertise spans AI prompt engineering, data analytics, functioning of LLMs, natural language processing.. Each challenge is a chance to innovate, each project a step towards redefining the industry. ● When you join us, it’s not just a job—it’s your moment to be part of a pioneering journey within fintech. Become a vital member of Navi and help shape the future of financial technology. Why You Should Join Our GenAI Team: Engage in Cutting-Edge Innovation: Immerse yourself in pioneering Generative AI projects that are at the forefront of market innovation. Whether it be GenAI powered chatbots or GenAI based automation or any other exciting GenAI projects - our high-growth, dynamic environment offers limitless opportunities to experiment and innovate, keeping you at the cutting edge of the Generative AI landscape. ● Join a Collaborative and Forward-Thinking Team: Collaborate with a diverse group of top-tier professionals who share your zeal for AI. Our culture of continuous learning and professional growth will ensure you’re always ahead of the curve, ready to tackle the next big challenge. ● Create Real Impact: Your work at Navi won’t just be theoretical—it will have immediate, real-world implications. By working cross-functionally with various departments, you’ll design and develop AI solutions that address intricate problems and make a significant impact on our customer’s lives. ● Be a Part of the Fintech Revolution: This is more than a job; it’s a chance to be a part of something transformative, pioneering breakthroughs that shape the future of fintech. Are you ready to make your mark? Apply today and join the Navi GenAI team! Key Responsibilities ● Develop and implement Generative AI (GenAI) based solutions tailored to create business impact and enhance customer experience at Navi. This involves understanding specific business needs and creating innovative AI-driven strategies. ● Collaborate extensively with cross-functional teams, including product managers and software engineers, to conceptualize, solutionize, and deploy AI solutions. Ensure seamless integration of AI solutions into existing workflows and platforms. ● Design, test, and refine AI prompts by leveraging advanced prompt engineering techniques. This includes researching and identifying the most effective ways to frame problems and elicit accurate responses from AI systems. ● Continuously define and monitor key quality metrics (such as accuracy, relevance, and completeness) and latency metrics (such as response time and processing speed) of AI deployments. Use insights gathered to make iterative improvements to models and prompts, ensuring they meet or exceed industry benchmarks. ● Stay informed about the latest advancements in GenAI, machine learning, and related technologies, applying innovative techniques to enhance Navi's AI capabilities. Must Haves ● Bachelor's or Master's degree in Engineering, Computer Science, or a closely related discipline from a recognized institution. ● Superior verbal and written communication skills are essential, enabling the creation of detailed, contextually accurate AI and solutions. ● Demonstrated ability in high-level critical thinking and problem-solving, particularly in evaluating AI-generated outputs and iterating prompts to enhance the performance and reliability of AI solutions. ● Proficiency in programming, preferably in Python. ● Exceptional analytical skills, with the ability to detect patterns, recognise biases, and ensure the generation of high-quality AI outputs. ● Bonus: An in-depth understanding of the operational principles and mechanisms behind large language models (LLMs), including experience with optimizing and customizing such models for specific business use cases. About Navi We are on a mission to make finance simple, accessible and affordable for a billion Indians. Guided by a strong customer-first approach, we are building tech-first solutions that work at scale. Our offerings include a range of financial products and services across Loans, Insurance, Mutual Funds, Digital Gold and UPI. Founded by Sachin Bansal & Ankit Agarwal in 2018, we are one of India’s fastest-growing financial services organisations. But we’re just getting started! Our Culture At Navi, we’re a place where ambition meets opportunity and ideas turn into impact quickly. We empower people with high ownership from the start, encouraging them to solve meaningful problems and build with excellence. Teams here work in an environment that values speed, collaboration and craftsmanship, while celebrating learning, growth and shared wins along the way. Whether you’re shaping the future of fintech products or driving innovation behind the scenes, life at Navi means being part of a high-energy, talent-driven workplace where your contributions truly make a difference. We’re guided by our own operating system - The Navi OS - a set of principles that shape how we work and win together. You can explore them at navi.com/our-values to see what drives us every day. If this feels like you, Navi is the place to grow, thrive and make a real impact.",
+        "posted_date": "2026-08-28",
+        "date_text": "1 week ago",
+        "insights": [
+            "On-site",
+            "Full-time"
+        ],
+        "salary": "",
+        "is_easy_apply": true,
+        "applicant_count": "Over 100 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 59.5,
+        "skill_score": 16.67,
+        "role_score": 50,
+        "experience_score": 80,
+        "domain_score": 100.0,
+        "education_score": 100,
+        "location_score": 100,
+        "matched_skills": [
+            "Python",
+            "Generative AI"
+        ],
+        "missing_skills": [
+            "machine learning",
+            "genai"
+        ],
+        "required_experience": null,
+        "ai_evaluation": {
+            "fit_score": 95.0,
+            "recommendation": "APPLY",
+            "confidence": 95.0,
+            "reason": "This candidate is an excellent fit for the AI Scientist 1 role at Navi. Their experience at Telstra, focusing on observability and automation within Kubernetes environments, directly aligns with the need to deploy and manage GenAI solutions. Their skills in Java, Python, TensorFlow, LangChain, and RAG pipelines are highly relevant, especially given the job description’s emphasis on GenAI, prompt engineering, and LLM optimization.  The candidate's experience with observability and monitoring is crucial for ensuring the reliability and performance of AI systems, and the strong background in RAG and the use of Next.js and Node.js demonstrates a good grasp of modern application development.  The candidate's experience in building and deploying AI models (AutoGluon, RAG), combined with their strong foundation in DevOps practices, makes them a very strong candidate. The candidate's skills and experience heavily overlap with the listed responsibilities and ‘must-haves’ of the role, particularly the focus on prompt engineering, LLM optimization, and deploying AI solutions within a distributed system.",
+            "matched_requirements": [
+                "Experience with Kubernetes and cloud infrastructure (GCP, AWS)",
+                "Skills in Python, Java, and R",
+                "Knowledge of LLMs, RAG, and GenAI",
+                "Experience with observability and monitoring tools (Splunk, New Relic, OpenTelemetry)",
+                "Experience with prompt engineering and fine-tuning AI models",
+                "DevOps experience with Terraform, Gitlab CI/CD"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [
+                "Experience with Next.js specifically"
+            ],
+            "concerns": []
+        },
+        "final_score": 84.35,
+        "recommendation": "GOOD MATCH"
+    },
+    {
+        "title": "Artificial Intelligence Intern",
+        "company": "Vahan.ai",
+        "location": "Bengaluru, Karnataka, India (On-site)",
+        "url": "https://www.linkedin.com/jobs/view/4461586067",
+        "apply_url": "",
+        "description": "About the job About the job We record people teleoperating a robot arm through pick-and-place tasks and train policies on that video. Between recording and training sits a pipeline that nobody sees and everybody depends on — it filters out blurred, blown-out, occluded, or frozen frames, locates the end-effector, crops around it, and produces clean training clips with a label showing how much of each recording survived. That pipeline is this internship. It's unglamorous and it's the highest-leverage part of the project: a policy trained on a frozen stream doesn't fail loudly — it quietly learns that the world doesn't move when you act on it. What you'll do Own the QC stage — sharpness, exposure, occlusion, near-duplicate, and region-of-interest checks on raw frames, with thresholds you can defend from the data Turn raw recordings into training clips: extraction, cropping, resizing, and keeping the crop stable across a clip rather than letting it jitter Decide which recordings are unusable and say so — a rejected clip is worth more than one quietly passed Use a VLM for checks a metric can't express (did the grasp happen, does the scene match its task label) — and know when it's the wrong tool Audit labels, sample by hand, and measure your own pipeline against what you find Work with Claude daily, and know exactly where you stop trusting it What we're looking for Hands-on comfort with OpenCV, PIL, and numpy on your own images — not just benchmark data You look at the distribution before picking a threshold You've called a vision-language model yourself and have a sense of what it costs You check things — if a script says 53 frames passed, you open a few and look You can say what you didn't verify, without being asked twice Final-year student or recent graduate, able to work full-time from Bengaluru for 6 months Nice to have (genuinely not required) Robot learning or imitation-learning datasets (LeRobot, Open X-Embodiment) · FFmpeg · off-the-shelf detection/segmentation on your own data · annotation QA · large-scale dataset tooling · Kaggle, open-source work, or write-ups Why this is worth your time You'll own one stage of a real pipeline end to end and watch it decide what a robot learns. It's a small team, so nothing you build sits behind three layers of approval — and data quality is a skill that transfers to every ML role you'll go on to hold.",
+        "posted_date": "2026-09-01",
+        "date_text": "3 days ago",
+        "insights": [
+            "On-site",
+            "Internship"
+        ],
+        "salary": "",
+        "is_easy_apply": true,
+        "applicant_count": "67 applicants",
+        "benefits": [],
+        "reposted": false,
+        "source": "linkedin",
+        "rule_based_score": 53.5,
+        "skill_score": 0.0,
+        "role_score": 50,
+        "experience_score": 80,
+        "domain_score": 100.0,
+        "education_score": 80,
+        "location_score": 100,
+        "matched_skills": [],
+        "missing_skills": [
+            "go"
+        ],
+        "required_experience": null,
+        "ai_evaluation": {
+            "fit_score": 93.0,
+            "recommendation": "APPLY",
+            "confidence": 0.95,
+            "reason": "Kriminal's profile demonstrates a strong alignment with the internship's requirements. Their background in observability, specifically with OpenTelemetry and distributed tracing, directly addresses the need for quality control over video streams. The emphasis on data reliability and defining thresholds aligns perfectly with the job description. Their proficiency in Python, TensorFlow, LangChain, and RAG, combined with their experience with data engineering pipelines, makes them a strong candidate. The candidate's experience with generative AI and RAG pipelines is a significant positive. While the ‘nice to have’ items are not essential, Kriminal’s skillset already covers a significant portion of the internship’s expectations.",
+            "matched_requirements": [
+                "Experience with observability tools (OpenTelemetry, Splunk, New Relic)",
+                "Proficiency in Python",
+                "Experience with data engineering pipelines",
+                "Experience with generative AI and RAG pipelines",
+                "Understanding of quality control and data validation",
+                "Experience with CV/Vision related technologies",
+                "Experience with data quality assessments"
+            ],
+            "missing_required_skills": [],
+            "missing_preferred_skills": [
+                "FFmpeg",
+                "off-the-shelf detection/segmentation on your own data",
+                "annotation QA",
+                "large-scale dataset tooling",
+                "Kaggle, open-source work, or write-ups"
+            ],
+            "concerns": []
+        },
+        "final_score": 81.15,
+        "recommendation": "GOOD MATCH"
+    }
+]
